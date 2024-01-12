@@ -1,0 +1,16 @@
+ #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+int main(){
+    int x,y,max=1;
+    scanf("%d %d",&x,&y);
+    for(int n=1;n<=x;n++){
+        if(x%n==0 && y%n==0){
+            max=n;
+        }
+    }
+    printf("%d\n",max);
+
+}

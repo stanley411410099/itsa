@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+int main(){
+    float a;
+    scanf("%f",&a);
+    printf("%.1f\n",(a*a*10+0.5)/10.0);
+    
+}

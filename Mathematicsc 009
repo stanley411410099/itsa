@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+int main(){
+    int a,total=1;
+    scanf("%d",&a);
+    if(a>31){
+        printf("Value of more than 31\n");
+        return 0;
+    }
+    for(int i=0;i<a;i++){
+        total=2*total;
+    }
+    printf("%d\n",total);
+}
